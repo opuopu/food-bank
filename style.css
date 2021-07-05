@@ -19,8 +19,13 @@ body{
 
 .foodhub img{
     width: 55%;
+   
     
 }
+
+#order{
+display: block;
+margin: 0 auto;}
 
 .orange-color{
 
