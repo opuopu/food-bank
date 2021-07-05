@@ -127,3 +127,23 @@ h1{
 
 }
 
+footer{
+    background-color: black;
+    text-align: center;
+
+    
+}
+footer h2{
+    color: gray;
+}
+footer .footer-color{
+    color: tomato;
+    font-weight: 900;
+
+}
+footer{
+    color: white;
+    font-size: 13px;
+}
+
+
