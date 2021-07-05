@@ -4,6 +4,30 @@ body{
     margin: 0;
 }
 
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+li{
+    display: inline-flex;
+}
+
+    li a{
+        text-decoration: none;
+        color: black;
+        padding: 10px 20px;
+       display: inline;
+       font-weight: 700;
+
+    }
+    .icon{
+
+    color: blue;
+    }
+
+
 .flexible{
 
     display: flex;
