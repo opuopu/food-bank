@@ -75,11 +75,23 @@ h1{
 
 .some-recipe img{
     width: 100%;
+   
 }
 
 .some-recipe{
 
     width: 20%;
-    padding: 5%;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 30px;
+    margin-left: 7%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px gray;
+
+
+}
+.some-recipe .vegetables{
+
+    border-radius: 17px;
 }
 
