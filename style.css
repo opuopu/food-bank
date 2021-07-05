@@ -108,6 +108,8 @@ h1{
 
 .some-recipe img{
     width: 100%;
+    border-radius: 25px;
+    
    
 }
 
@@ -122,9 +124,5 @@ h1{
     box-shadow: 0 0 10px gray;
 
 
-}
-.some-recipe .vegetables{
-
-    border-radius: 17px;
 }
 
