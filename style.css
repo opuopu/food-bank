@@ -17,6 +17,7 @@ h1{
 p{
     opacity: 0.5;
 }
+/* header section */
 header{
     padding: 10px;
     background-color: rgb(243, 132, 4);
@@ -52,7 +53,7 @@ li{
 
     color: blue;
     }
-
+/*section 1 */
 
 .flexible{
 
@@ -64,10 +65,10 @@ li{
 .foodhub{
     width: 50%;
     
-  
 
     
 }
+
 .middlefood p{
     margin-top: 10px;
 }
@@ -113,7 +114,7 @@ line-height: 2;
 }
 
 
-
+/* section 2 */
 
 .middle-banner{
     background-image: url(images/shapes/7.png);
@@ -131,7 +132,7 @@ line-height: 2;
     margin-top: 10px;
 }
 
-
+/* section 3 */
 .recepis{
 
     text-align: center;
@@ -167,7 +168,7 @@ padding: 20px;
     margin-bottom: 16px;
     margin-top: 5px;
 }
-
+/* section 4 */
 .order-now{
 
     text-decoration: none;
@@ -180,6 +181,7 @@ padding: 20px;
 .order-now:hover {
     background: linear-gradient(to left, #FF512F , #DD2476);
 }
+/* section 5 */
 .search-container{
     background-image: url(images/food/imageonline-co-darkenimage.png);
     margin-top: 30px;
@@ -190,6 +192,7 @@ padding: 20px;
     width: 50%;
     padding-left: 10%;
     margin-top: 5px;
+   
 }
 
     .search-food h2{
@@ -204,13 +207,14 @@ padding: 20px;
    
 }
 
-form .search{
+  .search-here .search{
     padding: 8px 20px;
     border-radius: 30px;
     margin-top: 5px;
+    background-color: rgba(211, 0, 0, 0);
+    border: 1px solid tomato;
 }
-    
-form a{
+.search-here a{
     text-decoration: none;
     color: #FF512F;
     padding: 8px 15px;
@@ -218,7 +222,7 @@ form a{
     border-radius: 30px;
     margin-left: 10px;
 }
-
+/* footer */
 
 footer{
     background-color: black;
