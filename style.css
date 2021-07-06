@@ -91,10 +91,10 @@ margin: 0 auto;}
     text-decoration: none;
     color: white;
     background-image: linear-gradient( to right,tomato,orange);
-    font-weight: 500;
+    font-weight: 800;
     padding: 10px 18px;
     border-radius: 20px;
-    box-shadow: 1px 1px 10px orange;
+    box-shadow: 1px 2px 15px orange;
     cursor: pointer;
     display: inline-block;
     margin-top: 15px;
