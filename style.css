@@ -1,8 +1,21 @@
-body{
+
+
+
+    body{
 
     font-family: 'Poppins', sans-serif;
     margin: 0;
+    
 }
+
+h1{
+    font-size: 30px;
+
+}
+p{
+    opacity: 0.5;
+}
+
 
 .navbar{
     display: flex;
@@ -55,10 +68,10 @@ margin: 0 auto;}
 
   color: orange;
 }
-.order-now{
+.order-btn{
     text-decoration: none;
     color: white;
-    background-image: linear-gradient(tomato,orange);
+    background-image: linear-gradient( to right,tomato,orange);
     font-weight: 500;
     padding: 10px 20px;
     border-radius: 20px;
@@ -68,9 +81,6 @@ margin: 0 auto;}
 
 line-height: 2;
 }
-
-h1{
-    font-size: 30px;
 
 
 }
@@ -85,20 +95,6 @@ h1{
     display: inline-block;
     margin-top: 10px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 .recepis{
@@ -116,20 +112,79 @@ h1{
 .some-recipe{
 
     width: 20%;
-  padding-top: 10px;
-  padding-left: 10px;
-  padding-right: 30px;
-  padding-bottom: 20px;
-    margin-left: 7%;
+ padding: 20px 30px 20px 10px;
+ margin-left: 50px;
+ margin-right: 50px;
     border-radius: 10px;
     box-shadow: 0 0 10px gray;
+    
 
 
 }
 
+.order-now{
+
+    text-decoration: none;
+    color: white;
+    padding: 8px 15px ;
+    background-image: linear-gradient(to right, #FF512F , #DD2476);
+    border-radius: 8px;
+}
+.search-container{
+    background-image: url(images/food/imageonline-co-darkenimage.png);
+    margin-top: 30px;
+    
+}
+.search-food{
+    width: 50%;
+}
+
+    .search-food h2{
+        color: orange;
+    }
+
+.search-food p{
+
+    color: white;
+
+
+   
+}
+
+.search-now{
+   
+   margin-top: 40px;
+   margin-left: 100px;
+  
+  
+    
+}
+.search-now .input{
+
+    padding: 12px 20px;
+    border-radius: 35px;
+    background-color: none;
+
+    
+}
+.search-now a{
+
+    text-decoration: none;
+    color: orangered;
+    border: 1px solid orangered;
+    border-radius: 40px;
+   
+    padding: 8px 20px;
+    margin-left: 10px;
+    
+}
+
+
 footer{
     background-color: black;
     text-align: center;
+   
+    
 
     
 }
